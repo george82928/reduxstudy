@@ -1,0 +1,40 @@
+{
+  "name": "reduxstudy",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-dev": "nodemon server/index.js",
+    "build": "webpack",
+    "build-dev": "webpack -w",
+    "build-sass": "node-sass -w ./client/styles/main.scss -o ./client/styles/mainSheet"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.5.1",
+    "lodash": "^4.17.4",
+    "morgan": "~1.9.0",
+    "react": "^16.2.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.0",
+    "redux-promise": "^0.5.3",
+    "serve-favicon": "~2.4.5",
+    "webpack": "^3.10.0"
+  }
+}
